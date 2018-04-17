@@ -9,7 +9,7 @@ We will start by creating a Resource Group to be used throughout the labs. All r
 3. The Resource Group blade should open, with the option to "Create" at the bottom, click "Create"
 4. Enter "[last name]ResourceGroup" as your Resource Group name
 5. Select your subscription
-6. Select region, we recommend Central US for the purposes of this demo
+6. Select region, we recommend EAST US for the purposes of this demo
 
 ## Create a VNet
 
@@ -100,7 +100,7 @@ This template will create a "TransitVNet" with "Transit" Subnet, and a Ubuntu VM
 4. Click "Build your own template in the editor"
 5. Delete everything in the editor, and then paste in the complete contents found at the following link:
 
-[https://github.com/AHEAD-Labs/AzureInnovationDay/blob/master/Lab1-Networking/SecondVNet/azuredeploy.json](https://github.com/AHEAD-Labs/AzureInnovationDay/blob/master/Lab1-Networking/SecondVNet/azuredeploy.json)
+[https://github.com/rwakefie/AzureInnovationDay/blob/master/Lab1-Networking/SecondVNet/azuredeploy.json](https://github.com/rwakefie/AzureInnovationDay/blob/master/Lab1-Networking/SecondVNet/azuredeploy.json)
 
 1. Click Save
 2. In the Custom Deployment Blade enter the following:
