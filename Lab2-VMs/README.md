@@ -54,7 +54,7 @@ We are going to create our second Web Server VM with PowerShell. We are going to
 4. Once complete the shell should have loaded PowerShell and authenticated you to Azure.
 5. Run the following command to create a VM supplying your last name where appropriate
 
-[https://github.com/AHEAD-Labs/AzureInnovationDay/blob/master/Lab2-VMs/PowerShell/PowerShellVM.ps1](https://github.com/AHEAD-Labs/AzureInnovationDay/blob/master/Lab2-VMs/PowerShell/PowerShellVM.ps1)
+[https://github.com/rwakefie/AzureInnovationDay/blob/master/Lab2-VMs/PowerShell/PowerShellVM.ps1](https://github.com/rwakefie/AzureInnovationDay/blob/master/Lab2-VMs/PowerShell/PowerShellVM.ps1)
 
 ## Review the Availability Set Configuration
 
