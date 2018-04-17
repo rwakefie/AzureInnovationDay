@@ -5,10 +5,11 @@
 3. Enter a name for your storage account (It must be unique and lower case).
   1. Ensure that "Account kind" is set to "StorageV2"
   2. Replication should be set to "Locally-redundant storage (LRS)"
-4. Click Create
-5. Once provisioning has completed, navigate to the resource by clicking "Go to resource"
-6. Click 'Blobs', and then click "Add Container" (Plus sign) near the top. Enter a name and set it to 'Private'
-7. Select your container and click 'Upload'. Upload these 3 files by pasting the link into the upload dialog: (You'll have to download these manually if you're on a Mac.)
+4. Choose your existing resource group "[last name]ResourceGroup"
+5. Click Create
+6. Once provisioning has completed, navigate to the resource by clicking "Go to resource"
+7. Click 'Blobs', and then click "Add Container" (Plus sign) near the top. Enter a name and set it to 'Private'
+8. Select your container and click 'Upload'. Upload these 3 files by pasting the link into the upload dialog: (You'll have to download these manually if you're on a Mac.)
 
 [https://goo.gl/QZLgyY](https://goo.gl/QZLgyY) , [https://goo.gl/NDfAkc](https://goo.gl/NDfAkc) , [https://goo.gl/vQcxFV](https://goo.gl/vQcxFV)
 
@@ -27,4 +28,4 @@
 \*Note the bash command for Linux servers at the bottom
 5. RDP into the VM you created in the last lab and run a PowerShell session(or ISE) as Administrator and execute the provided commands.
 
-[https://github.com/AHEAD-Labs/AzureInnovationDay/blob/master/Lab3-Storage/Mount-FileShare.ps1](https://github.com/AHEAD-Labs/AzureInnovationDay/blob/master/Lab3-Storage/Mount-FileShare.ps1)
+[https://github.com/rwakefie/AzureInnovationDay/blob/master/Lab3-Storage/Mount-FileShare.ps1](https://github.com/rwakefie/AzureInnovationDay/blob/master/Lab3-Storage/Mount-FileShare.ps1)
