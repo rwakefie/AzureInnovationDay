@@ -1,7 +1,7 @@
 ## Host Level Metrics
 
 1. Click “All Services” in the top left corner, search for and click on “Monitor"
-2. Under the "Shared Services" section, click on "Metrics"
+2. Under the "Shared Services" section, click on "Metrics" (not Metrics (preview))
 3. A selection pane will show at the top to choose the following:
   1. Subscription - a list of available subscriptions, choose the relevant subscription where your VM is located
   2. Resource Group - list of all resource groups within the subscription, choose the resource group your VM is located
@@ -16,7 +16,7 @@
 
 1. Navigate to "Log Analytics" within the Azure portal
 2. Click "+ Add" to create a new Log Analytics workspace
-3. Specify the workspace name, subscription, Resource Group, and Location, then click Create to provision your new workspace
+3. Specify the workspace name, subscription, Resource Group, and Location in East US, then click Create to provision your new workspace
 4. Once provisioned, navigate to your new Log Analytics workspace
 5. We will first configure our Workspace by choosing "Advanced settings" under the "Settings" section
 6. Under the "Data" tab, choose "Windows Performance Counters" and add the recommended Performance data by clicking the "Add the selected performance counters" button
@@ -41,22 +41,4 @@
 3. Copy or create a query in the editor window and then click the Magnifying Glass symbol to run the query.
 
 Try out some of these queries:
-[https://github.com/AHEAD-Labs/AzureInnovationDay/tree/master/Lab4-Monitoring/LogAnalyticsQueries](https://github.com/AHEAD-Labs/AzureInnovationDay/tree/master/Lab4-Monitoring/LogAnalyticsQueries)
-
-
-## Configure Just in Time Access On a VM
-
-Just in time VM Access is only available on Virtual Machines that have a Public IP and Network Security Group configured.
-
-1. Navigate to "Security Center" within the Azure portal
-2. Under the "Advanced Cloud Defense" section, click on "Just in time VM access"
-3. You may need to enable enhanced security to test the feature
-4. Under the "Recommended" tab, find and select your VM
-5. Click the "Enable JIT on 1 VMs"
-6. The access configuration blade will open and provide the Azure recommended settings.
-7. Click "Save" to configure the settings
-8. Once the settings are provisioned, navigate to the "Configured" tab
-9. Click "Request Access"
-10. From the "Request Access" blade, choose which ports you want to enable, and toggle them to "On". By choosing "My IP" as the Allowed Source IP, Azure will find your current Public IP and enable this as the allowed source.
-11. Click "Enable Ports" at the bottom of the blade
-12. Once enabled, JIT will configure Network Security Group rules that will only allow your Public IP to have access to the VM from the specified ports for duration of the time range
+[https://github.com/rwakefie/AzureInnovationDay/tree/master/Lab4-Monitoring/LogAnalyticsQueries](https://github.com/rwakefie/AzureInnovationDay/tree/master/Lab4-Monitoring/LogAnalyticsQueries)
