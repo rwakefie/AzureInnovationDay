@@ -1,7 +1,7 @@
 New-AzureRmVM `
 -ResourceGroupName "YOURRESOURCEGROUP" `
 -Name "web-vm-2" `
--Location "LOCATION" `
+-Location "EAST US" `
 -VirtualNetworkName "YOURVNET" `
 -SubnetName "web" `
 -AvailabilitySetName "YOURAVAILABILITYSETNAME"
