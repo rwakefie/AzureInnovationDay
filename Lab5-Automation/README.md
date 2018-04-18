@@ -11,4 +11,10 @@ In this lab we will start by deleting our Resource Group and all the resources c
 
 Deploy this ARM Template to your Azure environment:
 
-[https://github.com/AHEAD-Labs/AzureInnovationDay/blob/master/Lab5-Automation/Recreate-Environment/azuredeploy.json](https://github.com/AHEAD-Labs/AzureInnovationDay/blob/master/Lab5-Automation/Recreate-Environment/azuredeploy.json)
+[https://github.com/rwakefie/AzureInnovationDay/blob/master/Lab5-Automation/Recreate-Environment/azuredeploy.json](https://github.com/rwakefie/AzureInnovationDay/blob/master/Lab5-Automation/Recreate-Environment/azuredeploy.json)
+
+This step is challanging, below are some tips
+
+1. Install AzureRM module locally on your PC
+2. Creage a directory with the deployment script and JSON from the link above
+3. Execute the script. The ArtifactStagingDirecty must match the foldername that contains the scripts and this will also serve as the RG name in Azure
